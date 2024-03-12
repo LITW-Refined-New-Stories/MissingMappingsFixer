@@ -9,12 +9,12 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 @Mod(
     modid = MissingMappingsFixer.MODID,
     version = Tags.VERSION,
-    name = "MyMod",
+    name = "Missing Mappings Fixer",
     acceptedMinecraftVersions = "[1.7.10]",
     acceptableRemoteVersions = "*")
 public class MissingMappingsFixer {
 
-    public static final String MODID = "mymodid";
+    public static final String MODID = "missingmappingfixer";
     public static final Logger LOG = LogManager.getLogger(MODID);
 
     @Mod.EventHandler
@@ -22,6 +22,6 @@ public class MissingMappingsFixer {
     // GameRegistry." (Remove if not needed)
     public void preInit(FMLPreInitializationEvent event) {
         GeneralConfig.init();
-        MissingMappingsFixer.LOG.info("I am MyMod at version " + Tags.VERSION);
+        MissingMappingsFixer.LOG.info("I am Missing Mappings Fixer at version " + Tags.VERSION);
     }
 }
