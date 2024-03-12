@@ -6,7 +6,12 @@ import org.apache.logging.log4j.Logger;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = MissingMappingsFixer.MODID, version = Tags.VERSION, name = "MyMod", acceptedMinecraftVersions = "[1.7.10]", acceptableRemoteVersions = "*")
+@Mod(
+    modid = MissingMappingsFixer.MODID,
+    version = Tags.VERSION,
+    name = "MyMod",
+    acceptedMinecraftVersions = "[1.7.10]",
+    acceptableRemoteVersions = "*")
 public class MissingMappingsFixer {
 
     public static final String MODID = "mymodid";
