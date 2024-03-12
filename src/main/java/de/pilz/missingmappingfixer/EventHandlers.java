@@ -21,7 +21,7 @@ public class EventHandlers {
 
         // Get new item mappings
         for (String newMapping : GeneralConfig.mappings) {
-            String[] names = newMapping.split("\|");
+            String[] names = newMapping.split("\\|");
             if (names.length >= 3) {
                 switch (names[0]) {
                     case "item": {
